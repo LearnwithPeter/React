@@ -10,7 +10,7 @@ function App() {
   const addvalue=()=>{
     setcounter(counter+1); 
     if(counter>=20){
-      counter=5
+      counter=15
       setcounter(counter)
     }else{
       setcounter(counter+1)
@@ -20,7 +20,7 @@ function App() {
   
   const decvalue=()=>{
     if(counter<=0){
-      counter=5
+      counter=15
       setcounter(counter)
     }else{
       setcounter(counter-1)
