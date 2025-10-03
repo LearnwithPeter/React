@@ -6,13 +6,14 @@ const obj={
   name:"Earnest",
   age:21,
 }
-const App = () => {
+const App = ({prop}) => {
   return (
     
     <> 
-    <h1 className='bg-yellow-400 justify-center rounded-xl mb-6 max-w-5xl'>Title Page</h1>
-    <Card username="Earnest"/>
-    <Card username="Joy" />
+    <h2>{prop}</h2>
+    <h1 className='justify-center rounded-xl mb-6 max-w-5xl'>Title Page</h1>
+    <Card username="EARNEST"/>
+    <Card username="JOY" />
     </>
   )
 }
